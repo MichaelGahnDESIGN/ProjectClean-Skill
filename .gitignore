@@ -1,9 +1,53 @@
-.DS_Store
-Thumbs.db
-*.swp
-*.swo
-*.log
-*.tmp
-__pycache__/
+# Secrets & Credentials
 .env
 .env.*
+!.env.example
+*.pem
+*.key
+*.jks
+*.pfx
+secrets/
+private/
+
+# Build & Distribution
+dist/
+build/
+target/
+*.egg-info/
+
+# Editor & IDE
+.idea/
+.vscode/settings.json
+.vscode/launch.json
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+ENV/
+env/
+.pytest_cache/
+
+# Backups & Logs
+BACKUPS/
+*.backup
+*.bak
+*.log
+*.tmp
+
+# Test & Coverage
+coverage/
+test-output/
+screenshots/
+PlayTest*/
+htmlcov/
+
+# OS
+.DS_Store
+Thumbs.db

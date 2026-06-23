@@ -1,0 +1,28 @@
+{
+  "name": "mgd-projectclean-skill",
+  "version": "1.0.1",
+  "description": "Project cleanup and versioning skill for AI agents",
+  "author": "Michael Gahn DESIGN",
+  "email": "Anfrage@Michael-Gahn.de",
+  "website": "https://michael-gahn.de",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MichaelGahnDESIGN/MGD_ProjectClean_SKILL.git"
+  },
+  "keywords": [
+    "ai-agents",
+    "project-management",
+    "cleanup",
+    "versioning",
+    "backup",
+    "dsgvo"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
