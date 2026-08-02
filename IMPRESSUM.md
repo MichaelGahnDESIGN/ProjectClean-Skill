@@ -1,19 +1,19 @@
 # Impressum
 
-**Michael Gahn DESIGN**  
-E-Mail: Anfrage@Michael-Gahn.de  
-Website: https://michael-gahn.de  
+**Angaben gemäß § 5 DDG (Digitale-Dienste-Gesetz)**
 
----
+Michael Gahn DESIGN  
+https://Michael-Gahn.de
 
-## Datenschutz & Vollständige Kontaktdaten
+Michael Gahn  
+Dr.-Theodor-Brugsch Str. 12  
+08529 Plauen  
+Sachsen  
+Deutschland
 
-Alle rechtlich erforderlichen Angaben (Adresse, Telefon, Steuernummern, USt-ID) finden Sie auf unserer Website:
+Tel.: +49 (0) 176 557 647 48  
+E-Mail: Anfrage@Michael-Gahn.de
 
-**Vollständiges Impressum:** https://michael-gahn.de/impressum
-
-**Datenschutzerklärung:** https://michael-gahn.de/datenschutz
-
----
-
-**Grund dieser Redaktion:** DSGVO & DDG Compliance – Schutz vor Doxxing und Missbrauch von Steuerdaten in öffentlichen Repositories.  
+**Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:**  
+Steuernummer: 223/222/02451  
+Ust-ID: DE288143343
