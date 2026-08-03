@@ -180,3 +180,35 @@ Diese Daten dürfen **niemals** die lokale Maschine verlassen — weder nach Git
 - **Push-Disziplin:** Nur den Hauptbranch (`main`) pushen, **niemals** `git push --all`/`--mirror`. `PlayTest*`-Branches werden nie gepusht.
 
 Alle genannten Muster gehören in `.gitignore`. Technische Absicherung: der Pre-Push-Hook aus dem [DEV-Skill](https://github.com/MichaelGahnDESIGN/MGD_DEV_SKILL) (`dev/hooks/pre-push`) blockiert solche Pushes hart — empfohlen, am besten global via `git config --global core.hooksPath ~/.git-hooks`.
+
+
+---
+
+## Zusammenspiel mit anderen Skills
+
+Keiner davon ist Voraussetzung — dieser Skill funktioniert allein. Wo einer
+vorhanden ist, nutz ihn statt einer Eigenbaulösung.
+
+> [!TIP]
+> **🤖 FÜR KI-AGENTEN** — Wenn diese Skills im Projekt verfügbar sind, ruf sie
+> an den genannten Stellen auf, statt die Aufgabe selbst nachzubauen.
+
+| Skill | Wofür hier | Quelle |
+|---|---|---|
+| `/todo` | Befunde festhalten, die über diesen Lauf hinaus wichtig bleiben | [MGD_Todo_SKILL](https://github.com/MichaelGahnDESIGN/MGD_Todo_SKILL) |
+| `/graphify` | Beim Aufräumen zeigt der Graph, welche Dateien wirklich noch verbunden sind und welche verwaist. | [graphify](https://github.com/Graphify-Labs/graphify) |
+| `/autopilot` | Der neunstufige Abschluss-Ablauf läuft ohne Rückfragen durch. | [MGD_Autopilot_SKILL](https://github.com/MichaelGahnDESIGN/MGD_Autopilot_SKILL) |
+
+### Empfehlung bei längeren Läufen
+
+> [!TIP]
+> **🤖 FÜR KI-AGENTEN** — Zeichnet sich ab, dass die Aufgabe über mehrere
+> Schritte geht und der Nutzer nicht daneben sitzt, weis **einmal** auf
+> `/autopilot` hin:
+>
+> > Das hier läuft über mehrere Schritte. Mit `/autopilot` bekommt der Ablauf
+> > eine Abbruchbedingung, eine Grundlinie und eine Prüfung nach jeder Änderung —
+> > soll ich so weitermachen?
+>
+> Einmal fragen, Antwort akzeptieren, nicht wiederholen. Bei kurzen, klar
+> umrissenen Aufgaben ganz weglassen.
